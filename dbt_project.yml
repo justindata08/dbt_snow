@@ -25,14 +25,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 # Configuring models
 models:
-<<<<<<< HEAD
   jaffle_shop:
     # Applies to all files under models/example/
-    example:
-      +materialized: table
-=======
-  kestis_projekt:
     +materialized: view  # Default for all models in the project
     raw:
       +materialized: view  # Materialization for models in the "raw" subfolder
->>>>>>> 93081079a2e479d39318ec8e51b01b8a74fd3577
+
